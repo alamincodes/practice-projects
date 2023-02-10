@@ -21,6 +21,14 @@
     @apply after:w-8 after:h-1 after:absolute after:left-0 after:-bottom-2 after:rounded-full after:bg-transparent after:hover:bg-[#b936f5] after:transition-all after:duration-300 relative;
   }
   .btn {
-    @apply font-medium h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded-tl-2xl rounded-bl-md rounded-3xl text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center cursor-pointer;
+    @apply font-medium h-12 px-8 bg-gradient-to-r from-[#6923FF] to-[#f1006c] rounded-tl-2xl rounded-bl-md rounded-3xl text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center cursor-pointer;
   }
+}
+.gradient {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #d220ff 0%,
+    rgba(210, 32, 255, 0) 92.71%
+  );
+  
 }
